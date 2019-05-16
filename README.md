@@ -5,5 +5,5 @@
 >>2. pandas工具
 >>3. API：http://wthrcdn.etouch.cn/weather_mini?citykey=   
 ### 2. 天气预报返回Json数据示例
->>![Image text](https://github.com/ChenchenJT/PythonSpider-Weather/blob/master/JsonWeather.png)  
+>>![Image text](https://github.com/ChenchenJT/Image/blob/master/JsonWeather.png)  
   
