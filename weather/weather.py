@@ -5,7 +5,7 @@ import csv
 
 def getweather():
     # 利用pandas库进行数据清洗
-    df = pd.read_csv('china-city-list4.csv')
+    df = pd.read_csv('china-city-list.csv')
     for cityID in df.get('City_ID'):
         cityID= str(cityID)
         url='http://wthrcdn.etouch.cn/weather_mini?citykey='+cityID
@@ -29,7 +29,7 @@ def savetocsv(weather):
     :param: 天气信息
     :return:
     """
-    with open('weather10.csv', 'a+', newline='', encoding='utf-8') as csvfile:
+    with open('weather.csv', 'a+', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['城市编码', '城市名称', '时间', '天气', '最高温度', '最低温度' ]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writerow(weather)
