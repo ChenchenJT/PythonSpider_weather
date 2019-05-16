@@ -1,7 +1,11 @@
 import requests
 import pandas as pd
 import csv
-#用API爬取天气预报数据
+
+"""
+    @project: 爬取天气预报数据
+    @author: ChenchenJT
+"""
 
 def getweather():
     # 利用pandas库进行数据清洗
