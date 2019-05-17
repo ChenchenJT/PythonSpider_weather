@@ -7,5 +7,5 @@
 ### 2. 天气预报返回Json数据示例
 >![image](https://raw.githubusercontent.com/ChenchenJT/Image/master/JsonWeather.png)  
 ### 3. 关于作者
->![image](https://raw.githubusercontent.com/ChenchenJT/time-to-eat/master/aboutReadme/me.jpg)
+>![image](https://raw.githubusercontent.com/ChenchenJT/Image/master/me.jpg)
   
